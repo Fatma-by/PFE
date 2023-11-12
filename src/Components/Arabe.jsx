@@ -3,7 +3,7 @@ import { Card } from "./Card";
 import cardList from "./cardList";
 import './card.css'
 
-export default function Science() {
+export default function Arabe() {
   return (
     <>
       <div className="Matiere">
