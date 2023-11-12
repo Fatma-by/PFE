@@ -1,0 +1,69 @@
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*navbar*/
+
+.nav_ul li {
+  padding: 0 0.6rem;
+}
+
+.nav_ul a {
+  font-size: 1.05rem;
+  color: #000 !important;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.btn1 {
+  border: 0;
+  padding: 0.5rem 1.8rem;
+  color: #fff;
+  background-color: #01193c;
+}
+
+.btn2 {
+  border: 0;
+  padding: 0.5rem 1.2rem;
+  color: #fff;
+  background-color: #f60838;
+}
+/*accueil*/
+
+img{
+  width: 50px;
+  height: 500px;
+  
+
+
+}
+.accueil{
+ 
+  position: relative;
+  left:50px;
+  top: 50px;
+  width: 50%;
+ 
+}
+
+/*Sidebar*/
+
+
+.contain{
+
+  position : relative;
+  top: 150px;
+}
+#card {
+  position: relative;
+  left: 900px;
+  bottom : 600px;
+  width: 500px;
+  height: 200px;
+}
