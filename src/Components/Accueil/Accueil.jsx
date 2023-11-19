@@ -1,10 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img from "../Image/child.jpg";
-import img1 from "../Image/img2.jpg";
-import img3 from "../Image/le-groupe-de-l-école.webp";
+
 import "bootstrap/dist/css/bootstrap.css";
 import "./Accueil.css"
+
 
 const Accueil = () => {
   return (
@@ -17,13 +16,13 @@ const Accueil = () => {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={img} className="d-block w-100" alt="..." />
+              <img src="public\image\child.jpg"className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={img1} className="d-block w-100" alt="..." />
+              <img src="public\image\img2.jpg" className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={img3} className="d-block w-100" alt="..." />
+              <img src="public\image\le-groupe-de-l-école.webp" className="d-block w-100" alt="..." />
             </div>
           </div>
           <button
@@ -52,6 +51,26 @@ const Accueil = () => {
           </button>
         </div>
       </div>
+
+<div className="description"> 
+<h1 className="title">Bienvenue dans notre site " Ma Classe"</h1>
+<p className="desc">Gérer votre classe et vos élèves en toute facilité.
+<br></br>
+  Télécharger gratuitement votre cours, devoirs et exercices.
+</p>
+
+</div>
+<div>
+<img src="public\image\1.png"className="interieur-class" alt="..." />
+<h className="title-2">Créez la meilleure salle de classe possible</h>
+<p className="desc-2">Des feuilles de présence aux minuteurs et tout ce qu’il y a entre les deux,<br></br> la boite à outils pour enseignants vous fera gagner du temps et de l’énergie <br></br>pour ce qui compte vraiment : aider les enfants à grandir 🌱.</p>
+</div>
+
+<div>
+
+<img src="public\image\collection de cours.png"className="collection-cours" alt="..." />
+</div>
+
     </>
   );
 };

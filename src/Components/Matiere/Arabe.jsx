@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Card } from "./Card";
-import cardList from "./cardList";
-import './card.css'
+import { Card } from "../Card/Card";
+import cardList from "../Card/cardList";
+import '../Card/card.css'
 
-export default function Science() {
+export default function Arabe() {
   return (
     <>
       <div className="Matiere">
